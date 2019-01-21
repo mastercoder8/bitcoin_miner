@@ -30,8 +30,8 @@ Functions:
 - random_string			  => random string generation of fixed length
 
 
-================
 Module: [Worker]
+================
 Spawns processes, connects to server if its a remote connection before spawning. Checks the no of cores to 
 Functions:
 - spawn_process 		  => Spawn a process to work & send/receive messages to/from server
