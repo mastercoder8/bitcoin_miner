@@ -1,10 +1,6 @@
-# Project1
-
-**TODO: Add description**
 
 ## Installation
 
-#README.TXT
 
 BitcoinMiner [BitMiner, Server, Worker]
 -------------------------------
@@ -53,19 +49,24 @@ Analyis
 	- Connected 4 working machines on the same network and was able to mine zeros_length of 6 with high speed
 	- Was able to do the same by getting all the machines to storm servers
 	
-* For zeros_length=5, the ratio of CPU time to REAL TIME = 3.4 (Machine i7 4cores 3.16GHz)
+* For zeros_length=5, the ratio of CPU time to REAL TIME = 3.4 (Machine i7 4cores 3.16GHz).  
 
- saibandi;-W5c0KaUNEJakjV        00000A731689E702FBA2E95C869B77BCD4B3BF49B4B9D75B49D680A8ED074788
- saibandi;i4Z0i91HUxuivu-        00000D52F6B9D72A4ABA6D0A52EC2FA92EE814DDAC0D27C14E2A7CD31B086FC3
+| String		   | Hash							      |
+|--------------------------|------------------------------------------------------------------|
+| saibandi;-W5c0KaUNEJakjV | 00000A731689E702FBA2E95C869B77BCD4B3BF49B4B9D75B49D680A8ED074788 |
+| saibandi;i4Z0i91HUxuivu- | 00000D52F6B9D72A4ABA6D0A52EC2FA92EE814DDAC0D27C14E2A7CD31B086FC3 |
 
 * Max bitcoins zeros length
 	- Was able to Mine bitcoin zeros_length = 10 which took for 2hrs
-	- Successfully able to mine zeros_length = 7, within 10min (local workers) i5 with 4 Logical Processors
-	saibandi;pYNysqw3Cn4hGs3        000000750544C060BA263FB37FD32F72BB13304C458AE9973F4B1CC2FCADB9F6
-	saibandi;OM4RKHOcTJic0S7        000000613F49B44C235536D735F61CE6855799B24AB719494471ADEA26FD0E3C
-	saibandi;NbmxrNIuonIjY7S        000000C7BBC016B467EC8F703A261923C0D44EAD0F1A58E3CC3195238ED1AA5F
-	saibandi;qFwxpe98mspw4Io        0000005C18D6F577B37688791BDD5B7D59F4F32687C524EF5250C9A9604A7BED
-	saibandi;4TQDBOkypduvzUV        0000006E8C92A3C8A16D3EE8322CCAADD316615DF2E414E511BDA4364A8B432D
+	- Successfully able to mine zeros_length = 7, within 10min (local workers) i5 with 4 Logical Processors.    
+	
+	| Prefix    | String              | Hash                                                              |
+	|-----------|---------------------|-------------------------------------------------------------------|
+	| saibandi; | pYNysqw3Cn4hGs3     | 000000750544C060BA263FB37FD32F72BB13304C458AE9973F4B1CC2FCADB9F6 |
+	| saibandi; | OM4RKHOcTJic0S7     | 000000613F49B44C235536D735F61CE6855799B24AB719494471ADEA26FD0E3C |
+	| saibandi; | NbmxrNIuonIjY7S     | 000000C7BBC016B467EC8F703A261923C0D44EAD0F1A58E3CC3195238ED1AA5F |
+	| saibandi; | qFwxpe98mspw4Io     | 0000005C18D6F577B37688791BDD5B7D59F4F32687C524EF5250C9A9604A7BED |
+	| saibandi; | 4TQDBOkypduvzUV     | 0000006E8C92A3C8A16D3EE8322CCAADD316615DF2E414E511BDA4364A8B432D |
 	
 * With Multiple remote clients (2), No of strings generated to mines creates impact on performance.
 	- Too many strings (~20000) => keeps the client waiting for the server to generate strings	
